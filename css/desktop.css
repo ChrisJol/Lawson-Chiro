@@ -1,0 +1,158 @@
+@media (min-width: 650px) {
+
+    h1 {
+        border-bottom: none;
+        text-align: left;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    
+    /*****************************************
+                  header
+    *****************************************/
+    .header {
+        padding: 0 40px;
+        display: flex;
+    }
+    
+    .header h2 {
+        font-size: 45px;
+        max-width: 600px
+    }
+    
+    .header p {
+        font-size: 22px;
+    }
+    
+    #ham {
+        display: none;
+    }
+    
+    #navContainer {
+        align-self: center;
+        width: 100%;
+        max-width: 800px;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+    }
+    
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+    }
+    
+    #nav {
+        font-family: var(--font);
+    }
+    
+    #tCont {
+        width: 100%;
+        max-width: 800px;
+        align-self: center;
+        margin: 0;
+        padding: 70px 40px 90px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #container {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #spine {
+        align-self: center;
+        display: block;
+        position: static;
+        opacity: 1;
+        margin-left: 0;
+        margin-top: 0;
+        height: 230px;
+    }
+    
+    
+    /*****************************************
+                  main
+    *****************************************/
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        padding-bottom: 100px;
+    }
+    
+    .main h2, #commitments, #services, #FAQ, #about {
+        align-self: center;
+        width: 100%;
+        max-width: 800px;
+        padding: 20px 40px;
+    }
+    
+    .main h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    #commitments{
+    grid-template-columns: repeat(auto-fit, 110px);
+    grid-gap: 10px;
+    
+    max-width: 800px;
+    margin: 20px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--grayColor);
+}
+    
+    #commitments p {
+        width: 110px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #commitments img {
+        height: 70px;
+    }
+    
+    .icon{
+        width: 70px;
+        height: 70px;
+    }
+    
+    #FAQ {
+        border-radius: 7px;
+        padding-bottom: 5px;
+        -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    }
+    
+    #FAQ h2, #about h2 {
+        text-align: left;
+    }
+    
+    #about {
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
